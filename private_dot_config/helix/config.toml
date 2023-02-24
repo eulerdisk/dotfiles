@@ -1,0 +1,25 @@
+theme = "default"
+
+[editor]
+line-number = "relative"
+true-color = true
+cursorline = true
+mouse = true
+idle-timeout = 200
+rulers = [80]
+bufferline = "multiple"
+auto-save = true
+soft-wrap.enable = true
+
+[editor.lsp]
+display-messages = true
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+newline = "all"
+
+ [editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
