@@ -1,0 +1,5 @@
+
+ts() { tmux send-keys -t $1 "$2" Enter; }
+tsc() { tmux send-keys -t $1 C-c; }
+
+alias yt-best-mp3="yt-dlp -f 'ba' -x --audio-format mp3 -o '%(title)s [%(id)s].%(ext)s'"

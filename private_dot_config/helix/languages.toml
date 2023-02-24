@@ -1,0 +1,5 @@
+
+[[language]]
+name = "html"
+file-types = ["html", "stpl"]
+
