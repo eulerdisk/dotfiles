@@ -1,0 +1,6 @@
+Host github.com
+  User eulerdisk
+  IdentityFile ~/.ssh/id_github_eulerdisk
+
+
+  

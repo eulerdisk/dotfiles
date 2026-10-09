@@ -1,0 +1,44 @@
+theme = "default"
+
+[editor]
+bufferline = "multiple"
+cursorline = true
+idle-timeout = 200
+mouse = true
+rulers = [80]
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.lsp]
+display-messages = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.whitespace.render]
+newline = "none"
+space = "none"
+tab = "all"
+
+[keys.normal]
+B = "move_prev_sub_word_start"
+E = "move_next_sub_word_end"
+W = "move_next_sub_word_start"
+X = "extend_line_above"
+ret = "goto_word"
+
+[keys.normal.space]
+F = "file_picker"
+f = "file_picker_in_current_directory"
+
+[keys.select]
+B = "extend_prev_sub_word_start"
+E = "extend_next_sub_word_end"
+W = "extend_next_sub_word_start"
+X = "extend_visual_line_up"
+ret = "extend_to_word"
+
