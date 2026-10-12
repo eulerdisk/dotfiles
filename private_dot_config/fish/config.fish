@@ -19,6 +19,8 @@ status is-interactive; and begin
 
 end
 
-# fish_add_path -p ~/.local/bin
 # echo $fish_user_paths
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+fish_add_path -p ~/.local/bin
+fish_add_path -p ~/.cargo/bin
