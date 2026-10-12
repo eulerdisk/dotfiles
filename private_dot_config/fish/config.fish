@@ -19,8 +19,14 @@ status is-interactive; and begin
 
 end
 
-# echo $fish_user_paths
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# echo $fish_user_paths
 fish_add_path -p ~/.local/bin
+
+# cargo and rust
+# rustup completions fish > ~/.config/fish/completions/rustup.fish
+# set -gx fish_complete_path ~/.config/fish/completions
+fish_add_path -p $(brew --prefix rustup)/bin
 fish_add_path -p ~/.cargo/bin
