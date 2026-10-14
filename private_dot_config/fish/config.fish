@@ -19,16 +19,18 @@ status is-interactive; and begin
 
 end
 
-fish_add_path -p ~/.local/bin
+set -U fish_user_paths ~/.local/bin $fish_user_paths
+
+set -U fish_user_paths /home/linuxbrew/.linuxbrew/opt/rustup/bin $fish_user_paths
 
 # cargo and rust
 # rustup completions fish > ~/.config/fish/completions/rustup.fish
 # set -gx fish_complete_path ~/.config/fish/completions
-fish_add_path -p ~/.cargo/bin
+
+set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 
 if test -x /home/linuxbrew/.linuxbrew/bin/brew
     eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-    fish_add_path -p $(brew --prefix rustup)/bin
 end
 
 # echo $fish_user_paths
