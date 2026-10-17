@@ -4,5 +4,9 @@ brew "chezmoi"
 brew "fish"
 # Post-modern modal text editor
 brew "helix"
+# Handy way to save and run project-specific commands
+brew "just"
+# Rust toolchain installer
+brew "rustup"
 # Terminal multiplexer
 brew "tmux"
