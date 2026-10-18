@@ -19,13 +19,13 @@ status is-interactive; and begin
 
 end
 
-set -U fish_user_paths ~/.local/bin $fish_user_paths
+set -p fish_user_paths ~/.local/bin
+set -p fish_user_paths /home/linuxbrew/.linuxbrew/bin
+set -p fish_user_paths /home/linuxbrew/.linuxbrew/opt/rustup/bin
+set -p fish_user_paths ~/.cargo/bin
 
-set -U fish_user_paths /home/linuxbrew/.linuxbrew/bin $fish_user_paths
-
-set -U fish_user_paths /home/linuxbrew/.linuxbrew/opt/rustup/bin $fish_user_paths
-
-set -U fish_user_paths ~/.cargo/bin $fish_user_paths
+set -p fish_complete_path /home/linuxbrew/.linuxbrew/share/fish/completions
+set -p fish_complete_path /home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d
 
 # cargo and rust
 # rustup completions fish > ~/.config/fish/completions/rustup.fish
