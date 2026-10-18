@@ -5,5 +5,5 @@ sudo rpm-ostree install \
   gnome-extensions-app \
   openocd \
   rclone restic \
-  nicstat numactl sysprof sysstat trace-cmd \
+  virt-manager virt-install virt-viewer qemu-kvm libvirt-daemon-config-network libvirt-daemon-kvm \
   --idempotent
