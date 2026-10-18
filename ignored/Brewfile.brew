@@ -6,6 +6,8 @@ brew "fish"
 brew "helix"
 # Handy way to save and run project-specific commands
 brew "just"
+# Minimal dumb-terminal emulation program
+brew "picocom"
 # Rust toolchain installer
 brew "rustup"
 # Terminal multiplexer

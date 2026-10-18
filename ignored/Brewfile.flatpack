@@ -22,4 +22,3 @@ flatpak "org.gnome.Weather", remote: "fedora", url: "oci+https://registry.fedora
 flatpak "org.gnome.baobab", remote: "fedora", url: "oci+https://registry.fedoraproject.org"
 flatpak "org.gnome.clocks", remote: "fedora", url: "oci+https://registry.fedoraproject.org"
 flatpak "org.gnome.font-viewer", remote: "fedora", url: "oci+https://registry.fedoraproject.org"
-flatpak "org.virt_manager.virt-manager"
