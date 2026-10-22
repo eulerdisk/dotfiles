@@ -23,6 +23,7 @@ set -p fish_user_paths ~/.local/bin
 set -p fish_user_paths /home/linuxbrew/.linuxbrew/bin
 set -p fish_user_paths /home/linuxbrew/.linuxbrew/opt/rustup/bin
 set -p fish_user_paths ~/.cargo/bin
+set -p fish_user_paths ~/.local/stm32cube/bin
 
 set -p fish_complete_path /home/linuxbrew/.linuxbrew/share/fish/completions
 set -p fish_complete_path /home/linuxbrew/.linuxbrew/share/fish/vendor_completions.d
