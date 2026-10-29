@@ -5,6 +5,7 @@ LABEL com.github.containers.toolbox="true"
 
 RUN apt-get update && \
   apt-get install -y --no-install-recommends \
+  bash-completion \
   curl \
   git \
   cmake \
