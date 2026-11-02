@@ -1,8 +1,16 @@
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
-# Use any Linux distribution inside your terminal
-brew "distrobox"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
 # Post-modern modal text editor
 brew "helix"
+# Handy way to save and run project-specific commands
+brew "just"
+# Next-gen compiler infrastructure
+brew "llvm"
+# Minimal dumb-terminal emulation program
+brew "picocom"
 # Rust toolchain installer
 brew "rustup"
+# Terminal multiplexer
+brew "tmux"
