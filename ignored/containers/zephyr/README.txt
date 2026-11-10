@@ -23,3 +23,10 @@ nrfutil sdk-manager toolchain launch --ncs-version v3.4.1 --shell
 
 nrfutil completion install bash --as-script >> ~/.bashrc
 
+# direnv
+
+# ~/.bashrc
+eval "$(direnv hook bash)"
+
+# ~/.config/fish/config.fish
+direnv hook fish | source
