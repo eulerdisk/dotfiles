@@ -1,4 +1,4 @@
-theme = "solarized_dark"
+theme = "default"
 
 [editor]
 bufferline = "multiple"
@@ -34,6 +34,7 @@ ret = "goto_word"
 [keys.normal.space]
 F = "file_picker"
 f = "file_picker_in_current_directory"
+ret = ":reload-all"
 
 [keys.select]
 B = "extend_prev_sub_word_start"
